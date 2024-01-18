@@ -1,0 +1,158 @@
+header {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    height: auto;
+    width: 50;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    color: #fff;
+    background-color: blue;
+  }
+  
+  .logo {
+    font-size: 2em;
+    align-items: end;
+  }
+  .nav-icons{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+  }
+  .nav-icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .nav-icons ul li a {
+    color: white;
+   
+  }
+  
+  #login-container {
+    display: flex;
+  }
+  
+  #login-btn, #logout-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #login-btn:hover, #logout-btn:hover {
+    background-color: black;
+  }
+  
+
+
+
+.product-name {
+font-weight: 700;
+text-decoration: underline;
+}
+
+.product-price,
+.cart_item_price {
+font-style: oblique;
+font-family: cursive;
+}
+
+.product-img {
+max-width: 140px;
+margin: 0 auto;
+}
+
+footer {
+  background-color: #172337;
+  color: white;
+  padding-top: 3%;
+}
+
+.Footer h6 {
+  color: #82b5b8;
+  font-size: .8em;
+}
+
+.Footer>div {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  font-size: .75em;
+  font-weight: 200;
+}
+
+.Footer a {
+  color: rgb(255, 255, 255);
+  line-height: 1.3rem;
+}
+
+.Footer p {
+  margin: 0;
+  font-size: .96em;
+  line-height: 1.2rem;
+}
+
+footer i {
+  color: gold;
+}
+
+footer span {
+  font-size: .75em;
+  cursor: pointer;
+}
+.card{
+  padding: 10px;
+}
+
+.card-title a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Change color to black or your desired color */
+}
+
+.card {
+border: 1px dashed grey;
+
+
+}
+
+.btn:disabled {
+opacity: 0.5;
+}
+
+h4 {
+font-family: cursive;
+}
+
+.cart_item_name {
+font-weight: 700;
+}
+
+.overlay {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(192, 192, 192, 0.1);
+font-family: cursive;
+font-size: xx-large;
+cursor: wait;
+letter-spacing: 0.05em;
+text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.paypal {
+display: none;
+}
